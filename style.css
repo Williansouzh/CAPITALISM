@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: green;
+}
+header{
+    color: white;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgb(0, 49, 0);
+    max-width: 90%;
+    border-bottom: 4px solid black;
+}
+.nichos{
+    margin: 0px auto;
+    margin-bottom: 200px;
+    width: 80%;
+}
+
+
+.nicho {
+    cursor: pointer;
+    border: 1px solid white;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nicho > span{
+    padding: 10px;
+    background-color: greenyellow;
+}
+.nicho > P{
+    padding: 10px;
+    height: 100%;
+}
+.nicho .valor{
+    padding: 10px;
+    background-color: white;
+    width: 20%;
+}
+.nicho:hover{
+    background-color: white;
+}
+#trabalhar{
+    cursor: pointer;
+    font-size: 25px ;
+    background-color: yellow;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+.nichos>h3{
+    text-align: right;
+    letter-spacing: 2px;
+    display: flex;
+    font-weight: lighter;
+    align-items: center;
+    font-size: 25px;
+}
+.point{
+    width: 50px;
+    height: 5px;
+    margin-right: 20px;
+    background-color: aqua;
+}
