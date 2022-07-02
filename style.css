@@ -41,7 +41,9 @@ header{
 .nicho .valor{
     padding: 10px;
     background-color: white;
-    width: 20%;
+    flex-grow: 1;
+    flex-basis: 200px;
+    flex-shrink: 200px;
 }
 .nicho:hover{
     background-color: white;
